@@ -16,7 +16,7 @@ eureka:
       defaultZone: http://localhost:1000/eureka
 aliyun:
   oss:
-    access-key-id: LTAI5tGQwAS5hLVXzeQDzBgT
+    access-key-id: -------------------
     access-key-secret: FHv1Uuqw86ctNr84MmxfZT91r26X1X
     bucket-domain: http://wyn6379.oss-cn-shenzhen.aliyuncs.com
     bucket-name: wyn6379
