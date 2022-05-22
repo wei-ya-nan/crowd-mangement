@@ -1,0 +1,23 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: wyn-crowd-project
+  redis:
+    host: 192.168.10.100
+  session:
+    store-type: redis
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+aliyun:
+  oss:
+    access-key-id: LTAI5tGQwAS5hLVXzeQDzBgT
+    access-key-secret: FHv1Uuqw86ctNr84MmxfZT91r26X1X
+    bucket-domain: http://wyn6379.oss-cn-shenzhen.aliyuncs.com
+    bucket-name: wyn6379
+    end-point: http://oss-cn-shenzhen.aliyuncs.com

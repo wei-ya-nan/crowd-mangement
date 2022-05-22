@@ -1,0 +1,24 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: wyn-crowd-auth
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: 192.168.10.100
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+short:
+  message:
+    app-code: f194f4b8d5a249e0adfab3674f9424e5
+    host: https://zwp.market.alicloudapi.com/sms/edittemplete
+    method: GET
+    path: /codeNotice
+    sign: 151003
+    skin: 84683
